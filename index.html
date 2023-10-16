@@ -95,9 +95,8 @@
             <button onclick="checksout()">Checkout</button>
         </div>
     </div>
-
-    <script>
-        let cartItems = [];
+<script>
+let cartItems = [];
 
 function addToCart(product, price) {
     cartItems.push({product, price});
@@ -119,17 +118,6 @@ function updateCart() {
 
     totalElement.innerText = total;
 }
-
-
-
-
-// Add product and cart logic similar to the previous example
-
-function checksout() {
-    alert('Thank you for your purchase!');
-}
-
     </script>
-    
     </body>
     </html>
